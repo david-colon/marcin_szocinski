@@ -1,0 +1,95 @@
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+.areabg{
+    height: 100%; 
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.areatxt{
+    mix-blend-mode: difference;
+    font-weight: bolder;
+}
+
+@media (max-width: 320px) {
+    .icon {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .icon {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width: 700px) {
+    h3 {
+        font-size: 1.25rem;
+    }
+}
+
+#splash{
+    background-image: url("images/splash.jpg");
+    color: white;
+}
+
+#reel{
+    background-image: url("images/reel.jpg");
+    color: white;    
+}
+
+#biography{
+    background-image: url("images/bio.jpg");
+    color: white;
+}
+
+#commercials{
+    background-image: url("images/commercial.jpg");
+    color: white;
+}
+
+#documentaries{
+    background-image: url("images/documentary.jpg");
+    color: white;    
+}
+
+#features{
+    background-image: url("images/featurenarrative.jpg");
+    color: white;
+}
+
+#musicvideos{
+    background-image: url("images/musicvideo.jpg");
+    color: white;    
+}
+
+#marcinNav{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+/* begin basic style changes to entire page */
+html{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family:  "Poiret One", Tahoma, sans-serif;
+    height: 100%;
+}
+
