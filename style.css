@@ -17,6 +17,10 @@
     font-weight: bolder;
 }
 
+.mb-minus-36 {
+  margin-bottom: -36px;
+}
+
 @media (max-width: 320px) {
     .icon {
         font-size: 1rem;
@@ -49,6 +53,26 @@
 #reel{
     background-image: url("images/reel.jpg");
     color: white;    
+}
+
+.play-btn {
+  margin-top: 20px;
+}
+
+/* mobile */
+@media only screen and (max-width:680px)  {
+  .hide-mobile {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+/* desktop */
+@media only screen and (min-width: 680px) {
+  .hide-desktop {
+    display: none;
+    visibility: hidden;
+  }
 }
 
 #biography{
